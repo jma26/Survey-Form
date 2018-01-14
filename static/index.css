@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+label {
+    margin-right: 10px;
+    width: 120px;
+    display: inline-block;
+}
+
+select, input {
+    width: 120px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#comment_label {
+    display: block;
+    width: 150px;
+}

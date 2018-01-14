@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS -->
+    <link rel='stylesheet' type='text/css' href='index.css'>
+    <title>Document</title>
+</head>
+<body>
+    <h1> Survey Form </h1>
+    <form action='/result' method='POST'>
+        <div class='container'>
+            <label for='name'> Your name: </label>
+            <input type='text' name='name'>
+        </div>
+        <div class='container'>
+            <label for='location'> Dojo Location: </label>
+            <select name='location'>
+                <option> Dallas  </option>
+                <option> San Jose </option>
+                <option> Seattle </option>
+                <option> Los Angeles </option> 
+                <option> Chicago </option> 
+                <option> Washington D.C. </option>
+            </select>
+        </div>
+        <div class='container'>
+            <label for='language'> Favorite language: </label>
+            <select name='language'>
+                <option> JavaScript </option>
+                <option> Python </option>
+                <option> Java </option> 
+                <option> C++ </option>
+                <option> iOS Swift </option>
+            </select>
+        </div>
+        <div class='container'>
+            <label for='Comments' id='comment_label'> Comment (optional) </label>
+            <textarea cols='33' rows='5' name='comment'> </textarea>
+        </div>
+        <button> Submit </button>
+    </form>
+</body>
+</html>
